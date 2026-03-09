@@ -28,6 +28,8 @@ public class 자바시작 {
 	public static void main(String[] a) {
 		// TODO Auto-generated method stub
 		System.out.println("Hello Java");
+		
+		
 	}
 
 }
