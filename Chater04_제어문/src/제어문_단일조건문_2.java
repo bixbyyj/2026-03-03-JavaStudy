@@ -5,7 +5,7 @@ public class 제어문_단일조건문_2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-        int num=21;
+        int num=27;
         if(num%3==0) //3의 배수면
         {
         	System.out.println(num+"는(은) 3의 배수입니다");
