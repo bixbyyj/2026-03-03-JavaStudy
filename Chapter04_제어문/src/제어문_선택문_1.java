@@ -4,6 +4,32 @@
  *                    ------ 웹에서는 사용빈도가 없다 
  *                    if / if~else / for / while / break
  *                    ------ 네트워크 / 게임 / 데이터베이스 
+ *                    
+ *    일반형식
+ *       switch(int/char/String) // bool/double은 안됨
+ *       {
+ *         case 값1:
+ *              처리문장;
+ *              break;
+ *         case 값2:
+ *              처리문장;
+ *              break;
+ *         case 값3:
+ *              처리문장;
+ *              break;     
+ *         default:
+ *              처리문장;
+ *         };
+ *         
+ *     람다식
+ *       switch
+ *       {
+ *         case 값1->처리문장;
+ *         case 값2->처리문장;
+ *         default->처리문장;
+ *       };       
+ *         
+ *                        
  */
 import java.util.*;
 public class 제어문_선택문_1 {

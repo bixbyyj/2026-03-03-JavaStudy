@@ -58,6 +58,8 @@
  *    else if(/)
  *    else 없는 연산 
  *    ------------------ 단순화 : switch
+ *    
+ *    변수/데이터형(int long double bool) => String => 데이터 저장
  */
 /*
  *   => 변수 
@@ -75,7 +77,7 @@ public class 제어문_다중조건문 {
         System.out.print("첫번째 정수 입력:");
         int num1=scan.nextInt();
         
-        System.out.print("연산자 입력(+,-,*,/):");
+        System.out.print("연산자 입력(+,-,*,/):");	
         String op=scan.next();
         
         System.out.print("두번째 정수 입력:");
