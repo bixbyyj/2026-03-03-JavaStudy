@@ -1,0 +1,12 @@
+/*
+ *  배열 => 순차적으로 => for/for-each/if
+ * 
+ */
+public class 배열_10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
