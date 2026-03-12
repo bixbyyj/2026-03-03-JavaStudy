@@ -2,7 +2,7 @@
  * 사용자로부터 단을 받아서 구구단
  */
 import java.util.Scanner;
-public class 반복문_1 {
+public class 반복문_for_2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

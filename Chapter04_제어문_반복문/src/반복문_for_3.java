@@ -4,7 +4,7 @@
  */
 import java.util.Random;
 import java.util.Scanner;
-public class 반복문_2 {
+public class 반복문_for_3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
