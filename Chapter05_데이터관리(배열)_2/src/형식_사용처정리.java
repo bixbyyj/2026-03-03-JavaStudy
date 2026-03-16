@@ -61,5 +61,6 @@ public class 형식_사용처정리 {
         /*ArrayList<String> list=new ArrayList();
         list. ==> 리스트 뒤에 오는 형식이 다 String 형식으로 바뀜 : 제네릭(자동 형변환)
 	}*/
-
+	}
 }
+
