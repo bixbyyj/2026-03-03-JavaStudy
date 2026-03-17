@@ -15,6 +15,7 @@ public class 숫자야구게임 {
        {
     	   com[i]=(int)(Math.random()*9)+1;
     	   for (int j=0;j<i;j++)
+    		   
     	   {
     		   if (com[i]==com[j])
     		   {
