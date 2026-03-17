@@ -94,6 +94,7 @@ public class 메소드_4 {
         System.out.print("단 입력:");
         dan=scan.nextInt();
         gugudan(dan); // 중복 기능 제거 
+        
 	}
 
 }
