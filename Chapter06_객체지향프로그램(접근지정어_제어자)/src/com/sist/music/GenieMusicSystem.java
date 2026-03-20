@@ -131,12 +131,13 @@ public class GenieMusicSystem {
 	 }
 	  // 1. 목록 출력
 	 
-	 public void musicList()
+	 public Music[] musicList()
 	 {
 		 for (Music m:music)
 		 {
 			 System.out.println(m.getNo()+"."+m.getTitle());
 		 }
+		 return music;
 	 }
 	  // 2. 상세보기
 	 

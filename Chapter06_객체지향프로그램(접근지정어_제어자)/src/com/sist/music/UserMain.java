@@ -11,6 +11,7 @@ public class UserMain {
          while(true)
          {
         	 int m=GMS.menu();
+        	 
         	 if (m==4)
         	 {
         		 System.out.println("시스템을 종료합니다.");
@@ -35,7 +36,7 @@ public class UserMain {
         		 while(true)
         		 {        			         		 
         		 Scanner scan=new Scanner(System.in);
-        		 System.out.printf("1. 곡명 검색\n2. 가수명 검색\n");
+        		 System.out.printf("1. 곡명 검색\n2. 가수명 검색\n");        		 
         		
         		 int no=scan.nextInt();       		 
         		
