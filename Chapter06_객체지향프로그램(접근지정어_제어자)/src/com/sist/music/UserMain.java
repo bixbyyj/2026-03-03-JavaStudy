@@ -39,28 +39,34 @@ public class UserMain {
         		
         		 int no=scan.nextInt();       		 
         		
-        		 if (no==1)
-        		 {
+        		   if (no==1)
+        		   {
         			 System.out.println("검색어를 입력하세요 : ");
         			 String fd=scan.next();
         			 GMS.searchTitle(fd);
-        		 }
+        		   }
         		 
-        		 else if (no==2)
-        		 {
+        		   else if (no==2)
+        		   {
         			 System.out.println("검색어를 입력하세요 : ");
         			 String fd=scan.next();
         			 GMS.searchSinger(fd);
-        		 }
+        		   }
         		 
-        		 else
-        		 {
+        		   else
+        		   {
         			 System.out.println("잘못된 번호입니다.");
         			 
-        		 }
+        		   }
         		 }
         		 
         	 }
+        	 else
+  		    {
+  			 System.out.println("잘못된 번호입니다.");
+  			 
+  		    }
+        	 
         
          }
 	} 
