@@ -97,7 +97,7 @@ class Member2
 	}
 	Member2(String n , String a)
 	{
-		this(n);// 현재 클래스의 생성자를 호출
+		this();// 현재 클래스의 생성자를 호출
 		//this.name=name;
 		name=n;
 		address=a;
