@@ -5,6 +5,10 @@ interface Rand{
 	public void rand(int[] com);
 }
 public class 숫자야구게임 extends JFrame implements ActionListener,Rand{ //다중 상속을 받을 수 있다.
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -842055157217508870L;
 	// 힌트
 	JTextArea ta=new JTextArea(); //출력되는 자리
 	JTextField tf=new JTextField(10); //입력하는 자리

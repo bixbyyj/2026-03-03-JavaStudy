@@ -3,6 +3,7 @@ public class 예외처리_3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		String s=null;
 		System.out.println("Start");
 		System.out.println("1");
 		System.out.println("2");
@@ -15,11 +16,8 @@ public class 예외처리_3 {
 		
 		    System.out.println(Integer.parseInt("10 ")); //numberformatexception 발생
 		    System.out.println("4");
-		}catch(RuntimeException e)
-		{
-			System.out.println("5.문자열 처리");
 		}
-		}catch(ArithmeticException e)
+		 catch(ArithmeticException e)
 		{
 			System.out.println("6.에러발생 수행 : 에러 복구");
 		}catch(NumberFormatException e)
@@ -28,6 +26,10 @@ public class 예외처리_3 {
 		}catch(ArrayIndexOutOfBoundsException e)
 		{
 			System.out.println("8. 에러발생 수행 : 에러 복구");
+		}
+		catch(RuntimeException e) // 런타임 에러가 
+		{
+			System.out.println("5.문자열 처리");
 		}
 		finally
 		{
