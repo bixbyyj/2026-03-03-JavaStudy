@@ -5,15 +5,41 @@ import javax.swing.*;
 public class CustomerMainFrame extends JFrame
 implements ActionListener
 {
+	CardLayout card=new CardLayout();
     Login login=new Login();
+    
     CustomerDataCollection cdc=new CustomerDataCollection();
+    CustomerList cList=new CustomerList();
+    CustomerFind cFind=new CustomerFind();
+    
+    JMenuItem list=new JMenuItem("사원 목록");
+    JMenuItem find=new JMenuItem("사원 검색");
+    JMenuItem exit=new JMenuItem("종료");
 	public CustomerMainFrame()
 	{
+		JMenu menu=new JMenu("메뉴");
+		menu.add(list);
+		menu.add(find);
+		menu.addSeparator(); //구분자
+		menu.add(exit);
+		JMenuBar bar=new JMenuBar();
+		bar.add(menu);
+		
+		setJMenuBar(bar);
+		
+		
+		setLayout(card);
+		add("cFind", cFind);
+		add("cList", cList);
 		setSize(950, 700);
 		//setVisible(true);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		login.b1.addActionListener(this);
 		login.b2.addActionListener(this);
+		
+		list.addActionListener(this);
+		find.addActionListener(this);
+		exit.addActionListener(this);
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -91,6 +117,19 @@ implements ActionListener
 			 *   contains / startsWith / toUpperCase 
 			 *   => compare 
 			 */
+		}
+		else if(e.getSource()==list)
+		{
+			card.addLayoutComponent(get, e);
+		}
+		else if(e.getSource()==find)
+		{
+			
+		}
+		else if(e.getSource()==exit)
+		{
+			dispose(); // 메모리 삭제
+			System.exit(0); //프로그램 종료
 		}
 	}
 
