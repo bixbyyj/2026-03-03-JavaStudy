@@ -142,16 +142,16 @@ public class 숫자야구게임 extends JFrame implements ActionListener,Rand{ /
 			}
 		}
 	}
-	@Override
-	public Object getValue(String key) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-	@Override
-	public void putValue(String key, Object value) {
-		// TODO Auto-generated method stub
-		
-	}
+
+	/*
+	 * @Override public Object getValue(String key) { // TODO Auto-generated method
+	 * stub return null; }
+	 * 
+	 * @Override public void putValue(String key, Object value) { // TODO
+	 * Auto-generated method stub
+	 * 
+	 * }
+	 */
 	@Override
 	public void rand(int[] com) {
 		// TODO Auto-generated method stub
